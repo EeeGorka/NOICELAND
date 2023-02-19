@@ -819,6 +819,10 @@ body._lock {
     font-size: calc(1.125rem + 2 * (100vw - 26.25rem) / 810);
   }
 
+  .title_top {
+    font-size: calc(0.625rem + 0 * (100vw - 38.75rem) / 610);
+  }
+
   .header__container {
     min-height: calc(3.125rem + 40 * (100vw - 20rem) / 910);
   }
@@ -989,6 +993,10 @@ body._lock {
 @media (max-width: 38.75em) {
   .title {
     font-size: 1.5rem;
+  }
+
+  .title_top {
+    font-size: 0.625rem;
   }
 
   .body-footer__content {
